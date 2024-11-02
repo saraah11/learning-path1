@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: black;
+}
+
+.navbar > *{
+    color: black;
+    font-size: x-large;
+}
+
+.vulnerabilities-links{
+    display: flex;
+    gap: 100px;
+}

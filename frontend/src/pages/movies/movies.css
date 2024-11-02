@@ -1,0 +1,32 @@
+.Movies_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.movie-image {
+    width: 100px; /* Set width */
+    height: 100px; /* Maintain aspect ratio */
+  }
+
+.movie-post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+    gap: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+
+  .movie-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    flex: 1;
+
+}
